@@ -1,0 +1,62 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: #008080;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: black;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: purple;
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+    background-color: #f5f5f5;
+}
+.intro{
+    
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: #40e0d0;
+
+}
+
+.tutorials{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.tutorials img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.origami{
+
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: #87CEEB;
+
+    padding: 30px;
+    margin: 25px;
+    width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.origami:hover{
+    transform: scale(1.2);
+}
+.origami img{
+    position: relative;
+}
+.origami p{
+    position: relative;
+}
